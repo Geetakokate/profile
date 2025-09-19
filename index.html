@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+  <!-- Header -->
+  <header class="bg-white shadow-md p-6 text-center relative">
+    <!-- Profile Photo -->
+    <div class="flex justify-center mb-4">
+      <img src="https://via.placeholder.com/120" alt="Profile Photo"
+           class="w-32 h-32 rounded-full border-4 border-blue-500 shadow-md">
+    </div>
+    <h1 class="text-3xl font-bold">Your Name</h1>
+    <p class="text-gray-600">Full Stack Developer | Open Source Enthusiast</p>
+    <!-- Download Button -->
+    <a href="resume.pdf" download
+       class="mt-4 inline-block bg-blue-600 text-white px-5 py-2 rounded-full shadow hover:bg-blue-700 transition">
+       Download Resume (PDF)
+    </a>
+  </header>
+
+  <!-- Main -->
+  <main class="max-w-4xl mx-auto p-6 space-y-10">
+    
+    <!-- About Me -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-3 border-b-2 border-gray-300 pb-1">About Me</h2>
+      <p class="leading-relaxed">
+        Passionate software engineer with experience in building scalable web applications. 
+        I enjoy solving complex problems and contributing to open-source projects.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-3 border-b-2 border-gray-300 pb-1">Skills</h2>
+      <div class="flex flex-wrap gap-2">
+        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">JavaScript</span>
+        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">React</span>
+        <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Node.js</span>
+        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Ruby on Rails</span>
+        <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">SQL</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-3 border-b-2 border-gray-300 pb-1">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-white p-4 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="font-bold">Project One</h3>
+          <p class="text-sm text-gray-600">Short description about the project.</p>
+          <a href="#" class="text-blue-600 text-sm font-medium">View Project →</a>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="font-bold">Project Two</h3>
+          <p class="text-sm text-gray-600">Short description about the project.</p>
+          <a href="#" class="text-blue-600 text-sm font-medium">View Project →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-3 border-b-2 border-gray-300 pb-1">Work Experience</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-bold">Software Engineer - Company XYZ</h3>
+          <p class="text-sm text-gray-600">Jan 2020 – Present</p>
+          <ul class="list-disc ml-5 text-sm text-gray-700">
+            <li>Developed scalable APIs using Node.js and Express.</li>
+            <li>Improved page load performance by 40% through code optimization.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold">Web Developer - ABC Tech</h3>
+          <p class="text-sm text-gray-600">2018 – 2019</p>
+          <ul class="list-disc ml-5 text-sm text-gray-700">
+            <li>Built responsive UIs with React and Tailwind CSS.</li>
+            <li>Collaborated with designers and backend developers to deliver new features.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-3 border-b-2 border-gray-300 pb-1">Contact</h2>
+      <p>Email: <a href="mailto:youremail@example.com" class="text-blue-600">youremail@example.com</a></p>
+      <p>Phone: +91 9876543210</p>
+    </section>
+
+    <!-- Social Links -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-3 border-b-2 border-gray-300 pb-1">Social Links</h2>
+      <div class="flex gap-6 text-lg">
+        <a href="#" class="text-blue-600 hover:underline">LinkedIn</a>
+        <a href="#" class="text-gray-700 hover:underline">GitHub</a>
+        <a href="#" class="text-pink-600 hover:underline">Twitter</a>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
